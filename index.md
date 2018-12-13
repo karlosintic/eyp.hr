@@ -3,34 +3,34 @@ layout: blocks
 title: Homepage
 date: 2017-11-22 23:00:00 +0000
 page_sections:
-- template: navigation-header-w-button
-  block: header-2
-  logo: "/uploads/2018/06/21/forestry-full.svg"
-  navigation:
-  - link: "/"
-    link_text: Home
-  - link: "#"
-    link_text: About us
-  - link: "#"
-    link_text: Events
-  - link: "#"
-    link_text: Contact us
-  cta:
-    url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
-    button_text: Download
+
 - template: hero-banner-w-image
-  block: hero-2
-  headline: uBuild <br><strong>design blocks</strong>
-  content: The tool that allows you to build beautiful sites<br>all inside Forestry's
-    content manager.
+  block: hero-index
+
+  headline: organised for <strong>youth</strong> <br> by <strong>youth</strong>
+  content: independence, nonpartisanship, democracy, pluralism, intercultural understanding, inclusion, empowerment, contribution, and cooperation
   cta:
-    enabled: true
+    enabled: false
     url: https://github.com/forestryio/ubuild-jekyll
     button_text: 'See on GitHub '
+
   image:
-    image: "/uploads/2018/06/21/product-shot-1.png"
+    image: "/assets/side_by_side_white.png"
     alt_text: Product Shot
-  background_image: "/uploads/2018/06/21/hero-2-bg.png"
+  background_image: ""
+
+- template: navigation-header
+  block: header-1
+  navigation:
+  - link: "#"
+    link_text: Home
+  - link: "#about"
+    link_text: About us
+  - link: "#events"
+    link_text: Events
+  - link: "#contact"
+    link_text: Contact us
+
 - template: content-feature
   block: feature-1
   media_alignment: Left
