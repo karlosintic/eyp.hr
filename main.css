@@ -406,7 +406,7 @@ input.inverted::placeholder {
         justify-content: center;
         -ms-flex-align: center;
         align-items: center;
-        margin-top: 0
+        margin-top: 150px;
     }
 
     .block-hero-2 .column.media img {

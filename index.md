@@ -15,7 +15,7 @@ page_sections:
     button_text: 'See on GitHub '
 
   image:
-    image: "/assets/side_by_side_white.png"
+    image: "assets/side_by_side_white.png"
     alt_text: Product Shot
   background_image: ""
 
