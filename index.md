@@ -32,25 +32,32 @@ page_sections:
     link_text: Contact us
 
 - template: content-feature
-  block: feature-1
-  media_alignment: Left
-  headline: <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
-    class="light">the Blocks to create sites quickly</span>
-  content: Quickly assemble and create custom sites with 16 design blocks for seven
-    different sections.
-  media:
-    image: "/uploads/2018/06/21/blocks-split.png"
-    alt_text: uBuild Blocks Mock-Up
+  block: feature-index
+  headline: What is <strong>EYP</strong>?</span>
+  content: The European Youth Parliament is a non-governmental and non-profitable organisation which hosts events organised by the <strong>youth</strong> for the <strong>youth</strong>. It was founded in 1987 in Fontainebleau, France and since then it has expanded to 40 states and has organised many events all over Europe.
+
+
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  headline: <strong>Customize Blocks</strong><span class="light">&nbsp;to make quick
-    edits throughout your new site</span>
-  content: Each block comes with custom Front Matter that can easily be edited in
-    Forestry's UI.
+  headline: About <strong>EYP Croatia</strong></span>
+  content: U Hrvatskoj je EPMH (Europski parlament mladih Hrvatske) osnovan 1994. godine. Od početka aktivnosti, EPMH je organizirao brojne EYP dane, 8 regionalnih zasjedanja, 26 nacionalnih, 2 međunarodna zasjedanja i 1 međunarodni forum. </br></br>U te 22 godine i više od 40 održanih zasjedanja kroz našu je organizaciju prošlo preko 5 000 mladih ljudi željnih znanja, putovanja i zabave. Osim velikog utjecaja na regionalnoj razini, EPMH-u je čak dva puta dodijeljeno povjerenje od strane središnjeg ureda EPM-a u Berlinu za organiziranje međunarodnog zasjedanja – najvećeg i najznačajnijeg događaja unutar udruge.
   media:
-    image: "/uploads/2018/06/21/edit.gif"
+    image: "/assets/iadera.jpg "
     alt_text: Customize Blocks
+
+
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  headline: Random <strong>naslov</strong></span>
+  content: The organisation hosts a variety of events, but the main ones are regional, national and international sessions. Regional sessions are the ones where the delegates are introduced to the organisation’s work through a simulation of a real parliamentary session. The best ones are selected to join the national sessions which happen once or twice per year in all of the national branches, where the best are chosen to represent their communities, cultures and states at the international sessions, the biggest events hosted by the organisation.
+  media:
+    image: "/assets/iadera.jpg "
+    alt_text: Customize Blocks
+    
+
+
 - template: 1-column-text
   block: one-column-1
   headline: 16 Fully Responsive Design Blocks
@@ -61,6 +68,7 @@ page_sections:
   block: media-1
   image: "/uploads/2018/06/21/theme.png"
   caption: All Available Blocks
+
 - template: detail-content
   block: text-1
   headline: Steps to Build a Site!
@@ -72,9 +80,10 @@ page_sections:
     Page-Builder template.</p></li><li><p>Add and customize the available Blocks and
     preview them as you go along.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
     article</a> and create your own Blocks.</p></li></ol>
+
 - template: simple-footer
   block: footer-1
-  content: Hello world! ❤︎
+  content: Copyright © EYP Croatia. Made with ❤️ in Zagreb, Croatia by PR working group. </br> Contribute on <a href="https://github.com/eypcro/eyp.hr">GitHub</a>.
 ---
 
-foo bar
+Error... :(
