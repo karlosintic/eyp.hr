@@ -23,13 +23,13 @@ page_sections:
   block: header-1
   navigation:
   - link: "#"
-    link_text: Home
+    link_text: HOME
   - link: "#about"
-    link_text: About us
+    link_text: ABOUT US
   - link: "#events"
-    link_text: Events
+    link_text: EVENTS
   - link: "#contact"
-    link_text: Contact us
+    link_text: CONTACT US
 
 - template: content-feature
   block: feature-index
@@ -55,31 +55,30 @@ page_sections:
   media:
     image: "/assets/iadera.jpg "
     alt_text: Customize Blocks
-    
+
+- template: headline
+  block: headline
+  headline: Upcoming <strong>events</strong>
+  content: Tu ide neki tekst...
 
 
-- template: 1-column-text
-  block: one-column-1
-  headline: 16 Fully Responsive Design Blocks
-  content: "The Design Blocks can be used without Forestry but to harness the power
-    of Blocks we recommend using Forestry. Once the site is imported you can immediately
-    create new sites and make them fully customizable. \U0001F447"
-- template: full-width-media-element
-  block: media-1
-  image: "/uploads/2018/06/21/theme.png"
-  caption: All Available Blocks
-
-- template: detail-content
-  block: text-1
-  headline: Steps to Build a Site!
-  content: <p>uBuild is an open-source Jekyll based theme that doubles as a builder
-    tool inside the Forestry content manager. It's easy to get started!</p><ol><li><p>Fork
-    the <a href="https://github.com/forestryio/ubuild-jekyll">repo</a> and import
-    the site into <a href="https://forestry.io/">Forestry</a> (or use <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks#even-quicker-start">our
-    magic button</a>).</p></li><li><p>Click on 'Add New' in Forestry and select the
-    Page-Builder template.</p></li><li><p>Add and customize the available Blocks and
-    preview them as you go along.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
-    article</a> and create your own Blocks.</p></li></ol>
+- template: events
+  block: events
+  col_1:
+    image: "/assets/meeting.jpg"
+    alt_text: annual meeting santa
+    headline: Annual meeting + Christmas party!
+    content: The Annual Meeting of EYP Croatia will gather current members, former members and external parties in order to reflect on past year's work of European Youth Parliament Croatia and present the strategy for 2019. The meeting will take place on Saturday, December 22nd 2018 in Veterinarski Fakultet, University of Zagreb.
+  col_2:
+    image: "/assets/zadar.jpg"
+    alt_text: zadar 2019 logo
+    headline: 29th National Selection Conference of EYP Croatia - Zadar 2019.
+    content: The 29th National Selection Conference of European Youth Parliament Croatia will take place in Zadar from March 28th (27th for Officials) to March 31st. This will mark the third time the city of Zadar will host an event organised by EYP Croatia.
+  col_3:
+    image: "/assets/kvadrat.png"
+    alt_text: logo
+    headline: To be announced!
+    content: 🤫🤫🤫
 
 - template: simple-footer
   block: footer-1
