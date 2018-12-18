@@ -142,7 +142,49 @@ p {
     padding: .5rem 1rem
 }
 
-input {
+textarea{
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+    font-size: 1rem;
+    padding: 12.8px;
+    padding: .8rem;
+    background: none;
+    color: #000
+}
+
+textarea::-webkit-input-placeholder {
+    color: #666
+}
+
+textarea:-ms-input-placeholder {
+    color: #666
+}
+
+textarea::placeholder {
+    color: #666
+}
+
+textarea.inverted {
+    border-bottom: 1px solid #fff;
+    color: #000;
+    background: #fff;
+    border-radius: .3rem
+}
+
+textarea.inverted::-webkit-input-placeholder {
+    color: #ddd
+}
+
+textarea.inverted:-ms-input-placeholder {
+    color: #ddd
+}
+
+textarea.inverted::placeholder {
+    color: #ddd
+}
+
+input{
     border: none;
     border-bottom: 1px solid #000;
     font-size: 16px;
@@ -548,31 +590,35 @@ input.inverted::placeholder {
 }
 
 .block-cta-bar .cta {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%
+
 }
 
 .block-cta-bar .cta form {
     text-align: right;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-align: stretch;
-    align-items: stretch
+    flex-direction: column;
 }
 
-.block-cta-bar .cta input {
-    -ms-flex: auto;
-    flex: auto;
-    width: 100px;
-    margin-right: 4px;
-    margin-right: .25rem;
-    border-radius: .3rem 0 0 .3rem
+.block-cta-bar .cta textarea{
+
+    margin-bottom: .25rem;
+    border-radius: .3rem .3rem .3rem .3rem;
+    resize: none;
+}
+
+.block-cta-bar .cta .mail {
+    -ms-flex: 0 0 5%;
+    flex: 0 0 5%;
+}
+
+.block-cta-bar .cta .body {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
 }
 
 .block-cta-bar .cta .button {
-    -ms-flex: 0 0 100px;
-    flex: 0 0 100px;
-    border-radius: 0 .3rem .3rem 0
+    border-radius: .3rem .3rem .3rem .3rem
 }
 
 @media screen and (min-width:700px) {

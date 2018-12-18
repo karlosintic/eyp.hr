@@ -80,6 +80,10 @@ page_sections:
     headline: To be announced!
     content: 🤫🤫🤫
 
+- template: contact
+  block: contact
+  content: Contacts us 
+
 - template: simple-footer
   block: footer-1
   content: Copyright © EYP Croatia. Made with ❤️ in Zagreb, Croatia by PR working group. </br> Contribute on <a href="https://github.com/eypcro/eyp.hr">GitHub</a>.
