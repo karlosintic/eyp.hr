@@ -1,3 +1,13 @@
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: #FFD700
+}
+
+
 .blue_nav{
     position: fixed;
     top: 0;
