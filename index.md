@@ -65,25 +65,25 @@ page_sections:
 - template: events
   block: events
   col_1:
-    image: "/assets/meeting.jpg"
-    alt_text: annual meeting santa
-    headline: Annual meeting + Christmas party!
-    content: The Annual Meeting of EYP Croatia will gather current members, former members and external parties in order to reflect on past year's work of European Youth Parliament Croatia and present the strategy for 2019. The meeting will take place on Saturday, December 22nd 2018 in Veterinarski Fakultet, University of Zagreb.
-  col_2:
     image: "/assets/zadar.jpg"
     alt_text: zadar 2019 logo
     headline: 29th National Selection Conference of EYP Croatia - Zadar 2019.
     content: The 29th National Selection Conference of European Youth Parliament Croatia will take place in Zadar from March 28th (27th for Officials) to March 31st. This will mark the third time the city of Zadar will host an event organised by EYP Croatia.
-  col_3:
+  col_2:
     image: "/assets/kvadrat.png"
     alt_text: logo
     headline: To be announced!
     content: 🤫🤫🤫
+  col_3:
+    image: "/assets/kvadrat.png"
+    alt_text: logo
+    headline: To be announced!
+    content: 🤫🤫🤫    
 
 - template: contact
   block: contact
   headline: Contact us!
-  content: <a href="">European Youth Parliament Croatia</a>
+  content: <a href="https://www.facebook.com/EYP.Croatia"><i class="fab fa-facebook"></i> European Youth Parliament Croatia</a> </br> <a href="https://www.facebook.com/RegionalsCRO"><i class="fab fa-facebook"></i> Regional Sessions of EYP Croatia</a> </br> <a href="https://www.instagram.com/eypcroatia"><i class="fab fa-instagram"></i> EYP Croatia</a> </br> <a href="mailto:info@eyp.hr"><i class="far fa-share-square"></i> info@eyp.hr</a>
 
 - template: simple-footer
   block: footer-1

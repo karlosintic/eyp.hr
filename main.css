@@ -1,10 +1,11 @@
+
 .link{
     text-decoration: none;
     color: white;
 }
 
 .link:hover {
-    color: #FFD700
+    color: #FFD700;
 }
 
 
@@ -572,13 +573,11 @@ input.inverted::placeholder {
 .block-cta-bar .text {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
-    padding-right: 64px;
-    padding-right: 4rem;
     margin-bottom: 32px;
     margin-bottom: 2rem
 }
 
-.block-cta-bar .text h3 {
+.block-cta-bar .text h2 {
     margin-bottom: 16px;
     margin-bottom: 1rem
 }
@@ -587,6 +586,17 @@ input.inverted::placeholder {
     font-size: 20px;
     font-size: 1.25rem;
     color: #fff
+}
+
+.block-cta-bar .text a {
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.block-cta-bar .text a:hover {
+    color: #FFD700
 }
 
 .block-cta-bar .cta {
@@ -912,18 +922,18 @@ body {
 }
 
 ::-moz-selection {
-    background: #ffedbc;
-    color: #333
+    background: #FFD700;
+    color: white;
 }
 
 ::-webkit-selection {
-    background: #ffedbc;
-    color: #333
+    background: #FFD700;
+    color: white;
 }
 
 ::selection {
-    background: #ffedbc;
-    color: #333
+    background: #FFD700;
+    color: white;
 }
 
 
