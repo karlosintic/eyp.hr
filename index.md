@@ -82,7 +82,8 @@ page_sections:
 
 - template: contact
   block: contact
-  content: Contacts us 
+  headline: Contact us!
+  content: <a href="">European Youth Parliament Croatia</a>
 
 - template: simple-footer
   block: footer-1

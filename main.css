@@ -590,6 +590,8 @@ input.inverted::placeholder {
 }
 
 .block-cta-bar .cta {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
 
 }
 
@@ -608,8 +610,8 @@ input.inverted::placeholder {
 }
 
 .block-cta-bar .cta .mail {
-    -ms-flex: 0 0 5%;
-    flex: 0 0 5%;
+    -ms-flex: 0 0 2.7rem;
+    flex: 0 0 2.7rem;
 }
 
 .block-cta-bar .cta .body {
