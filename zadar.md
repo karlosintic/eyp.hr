@@ -6,30 +6,32 @@ page_sections:
 
 - template: hero-banner-w-image
   block: hero-index
-  bg-color: 394692;
-  tx-color: white;
-  headline: organised for <strong>youth</strong> <br> by <strong>youth</strong>
-  content: independence, nonpartisanship, democracy, pluralism, intercultural understanding, inclusion, empowerment, contribution, and cooperation
+  bg-color: white;
+  tx-color: black;
+  headline: <strong> Zadar </strong> 2019
+  content: 29th National Session of EYP Croatia
   cta:
     enabled: false
     url: https://github.com/forestryio/ubuild-jekyll
     button_text: 'See on GitHub '
 
   image:
-    image: "assets/side_by_side_white.png"
-    alt_text: side_by_side_logo
+    image: "assets/zadar.jpg"
+    alt_text: zadar_logo
   background_image: ""
 
 - template: navigation-header
-  block: header-1
+  block: nav-session
+  color: orange
+  hov-color: grey
   navigation:
-  - link: "#"
+  - link: "/#"
     link_text: HOME
-  - link: "#about"
+  - link: "/#about"
     link_text: ABOUT US
-  - link: "#events"
+  - link: "/#events"
     link_text: EVENTS
-  - link: "#contact"
+  - link: "/#contact"
     link_text: CONTACT US
 
 - template: content-feature
