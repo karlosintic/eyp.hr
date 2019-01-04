@@ -1,4 +1,6 @@
 
+
+
 .link{
     text-decoration: none;
     color: white;
@@ -143,6 +145,16 @@ p {
     padding: .5rem 1rem
 }
 
+.button.rectangle{
+    font: bold 11px;
+    text-decoration: none;
+    color: white;
+    border-radius: 0 0 0 0;
+    margin-top: 0.7rem;
+    display: inline-block;
+}
+
+
 textarea{
     border: none;
     border-bottom: 1px solid #000;
@@ -236,6 +248,7 @@ input.inverted::placeholder {
     align-items: center;
     padding: 16px 32px;
     padding: 1rem 2rem;
+    z-index: 10;
 }
 
 .block-header-1--logo img {
@@ -411,7 +424,9 @@ input.inverted::placeholder {
 .block-hero-2 .column.text {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
-    text-align: center
+    text-align: center;
+
+
 }
 
 .block-hero-2 .column.media {
@@ -423,8 +438,8 @@ input.inverted::placeholder {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-top: 96px;
-    margin-top: 6rem
+    margin-top: 10rem;
+    margin-bottom: 2rem;
 }
 
 .block-hero-2 .column.text p {
@@ -770,6 +785,11 @@ input.inverted::placeholder {
     margin-bottom: 2rem
 }
 
+.block-feature-1 .column.text p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .block-feature-1 .column.media, .block-feature-1 .column.text {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%
@@ -819,6 +839,11 @@ input.inverted::placeholder {
     order: 1;
     margin-bottom: 32px;
     margin-bottom: 2rem
+}
+
+.block-feature-2 .column.text p{
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .block-feature-2 .column.media {
@@ -933,5 +958,6 @@ body {
     background: #FFD700;
     color: white;
 }
+
 
 

@@ -8,12 +8,13 @@ page_sections:
   block: hero-index
   bg-color: white;
   tx-color: black;
-  headline: <strong> Zadar </strong> 2019
+  headline: <strong>Zadar</strong> 2019  
   content: 29th National Session of EYP Croatia
-  cta:
-    enabled: false
-    url: https://github.com/forestryio/ubuild-jekyll
-    button_text: 'See on GitHub '
+  button:
+    enabled: True
+    url: https://www.members.eyp.org/event/zadar-2019-29th-national-selection-conference-eyp-croatia
+    button_text: Check it out on the Members platform
+    bg_col: c07d39
 
   image:
     image: "assets/zadar.jpg"
@@ -22,7 +23,7 @@ page_sections:
 
 - template: navigation-header
   block: nav-session
-  color: orange
+  color: c07d39
   hov-color: grey
   navigation:
   - link: "/#"
@@ -34,59 +35,41 @@ page_sections:
   - link: "/#contact"
     link_text: CONTACT US
 
-- template: content-feature
-  block: feature-index
-  headline: What is <strong>EYP</strong>?</span>
-  content: The European Youth Parliament is a non-governmental and non-profitable organisation which hosts events organised by the <strong>youth</strong> for the <strong>youth</strong>. It was founded in 1987 in Fontainebleau, France and since then it has expanded to 40 states and has organised many events all over Europe.
-
-
-- template: content-feature
-  block: feature-1
-  media_alignment: Right
-  headline: About <strong>EYP Croatia</strong></span>
-  content: U Hrvatskoj je EPMH (Europski parlament mladih Hrvatske) osnovan 1994. godine. Od početka aktivnosti, EPMH je organizirao brojne EYP dane, 8 regionalnih zasjedanja, 26 nacionalnih, 2 međunarodna zasjedanja i 1 međunarodni forum. </br></br>U te 22 godine i više od 40 održanih zasjedanja kroz našu je organizaciju prošlo preko 5 000 mladih ljudi željnih znanja, putovanja i zabave. Osim velikog utjecaja na regionalnoj razini, EPMH-u je čak dva puta dodijeljeno povjerenje od strane središnjeg ureda EPM-a u Berlinu za organiziranje međunarodnog zasjedanja – najvećeg i najznačajnijeg događaja unutar udruge.
-  media:
-    image: "/assets/iadera.jpg "
-    alt_text: Customize Blocks
-
+- template: headline
+  block: headline
+  headline: <strong><em>"Rise and shine, it’s up to you to define"</em></strong>
 
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: Random <strong>naslov</strong></span>
-  content: The organisation hosts a variety of events, but the main ones are regional, national and international sessions. Regional sessions are the ones where the delegates are introduced to the organisation’s work through a simulation of a real parliamentary session. The best ones are selected to join the national sessions which happen once or twice per year in all of the national branches, where the best are chosen to represent their communities, cultures and states at the international sessions, the biggest events hosted by the organisation.
+  content: The 29th National Selection Conference of European Youth Parliament Croatia will take place in Zadar from March 28th (27th for Officials) to March 31st. This will mark the third time the city of Zadar will host an event organised by EYP Croatia. </br></br> 150 participants will gather under the topic “Rise and shine, it’s up to you to define” which encompasses both the academic content and the organisational aspect of the session. </br></br> The Head Organisers of this session are Karlo Sintić (HR) and Antonio Kranjčec (HR). The president of this session is  Nikola Vraneš (RS). The Head of Jury of this session is Ilona Cenolli (AT/AL).  The Editors of this session are Stefan Hadžović (RS) and Levon Tadevosyan (AM). Like us on Facebook and follow us on Instagram in order to be up to date with all the information about the session.
   media:
     image: "/assets/iadera.jpg "
     alt_text: Customize Blocks
 
-- template: headline
-  block: headline
-  headline: Upcoming <strong>events</strong>
-  content: Tu ide neki tekst...
+- template: documents
+  block: documents
+  headline: Documents
+  color: c07d39;
+  navigation:
+  - link: https://www.members.eyp.org/sites/default/files/event/files/zadar2019_president_vision.pdf
+    link_text:  Presidential vision
+  - link: https://www.members.eyp.org/sites/default/files/event/files/vision.pdf
+    link_text:  Editors’ vision
+  - link: "#"
+    link_text: Session Description
+  - link: "#"
+    link_text: Opis zasjedanja (HR)
+  - link: "#"
+    link_text: Poziv donatorima i sponzorima (HR)
 
-
-- template: events
-  block: events
-  col_1:
-    image: "/assets/zadar.jpg"
-    alt_text: zadar 2019 logo
-    headline: 29th National Selection Conference of EYP Croatia - Zadar 2019.
-    content: The 29th National Selection Conference of European Youth Parliament Croatia will take place in Zadar from March 28th (27th for Officials) to March 31st. This will mark the third time the city of Zadar will host an event organised by EYP Croatia.
+- template: partners
+  block: three-column-w-image
   col_2:
-    image: "/assets/kvadrat.png"
-    alt_text: logo
-    headline: To be announced!
-    content: 🤫🤫🤫
-  col_3:
-    image: "/assets/kvadrat.png"
-    alt_text: logo
-    headline: To be announced!
-    content: 🤫🤫🤫    
+    image: "/assets/grb.png"
+    alt_text: grb
+    headline: The patron of this session is the President of the Republic of Croatia Kolinda Grabar-Kitarović.   
 
-- template: contact
-  block: contact
-  headline: Contact us!
-  content: <a href="https://www.facebook.com/EYP.Croatia"><i class="fab fa-facebook"></i> European Youth Parliament Croatia</a> </br> <a href="https://www.facebook.com/RegionalsCRO"><i class="fab fa-facebook"></i> Regional Sessions of EYP Croatia</a> </br> <a href="https://www.instagram.com/eypcroatia"><i class="fab fa-instagram"></i> EYP Croatia</a> </br> <a href="mailto:info@eyp.hr"><i class="far fa-share-square"></i> info@eyp.hr</a>
 
 - template: simple-footer
   block: footer-1

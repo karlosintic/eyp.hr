@@ -64,7 +64,7 @@ page_sections:
 
 
 - template: events
-  block: events
+  block: three-column-w-image
   col_1:
     image: "/assets/zadar.jpg"
     alt_text: zadar 2019 logo
