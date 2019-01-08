@@ -34,33 +34,32 @@ page_sections:
 
 - template: content-feature
   block: feature-index
-  headline: What is <strong>EYP</strong>?</span>
-  content: The European Youth Parliament is a non-governmental and non-profitable organisation which hosts events organised by the <strong>youth</strong> for the <strong>youth</strong>. It was founded in 1987 in Fontainebleau, France and since then it has expanded to 40 states and has organised many events all over Europe.
-
+  headline: What is <strong>EYP</strong>?
+  content: The European Youth Parliament (EYP) is an organization whose purpose is educating young people on current European problems in a parliamentary aspect. </br></br> As a network organization, EYP operates in 40 European countries and organizes over 500 events per year and if we aggregate the days we exceed 1200 days and 30,000 active members. </br></br> EYP was founded in 1987, and has since then taken huge steps forward connecting Europe and its different cultures. Today, EYP is one of the largest European platform for political debate, European education and the exchange of ideas among young Europeans. The Schwarzkopf Foundation is an international organization with headquarters in Berlin under which EYP is located.
 
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  headline: About <strong>EYP Croatia</strong></span>
-  content: U Hrvatskoj je EPMH (Europski parlament mladih Hrvatske) osnovan 1994. godine. Od početka aktivnosti, EPMH je organizirao brojne EYP dane, 8 regionalnih zasjedanja, 26 nacionalnih, 2 međunarodna zasjedanja i 1 međunarodni forum. </br></br>U te 22 godine i više od 40 održanih zasjedanja kroz našu je organizaciju prošlo preko 5 000 mladih ljudi željnih znanja, putovanja i zabave. Osim velikog utjecaja na regionalnoj razini, EPMH-u je čak dva puta dodijeljeno povjerenje od strane središnjeg ureda EPM-a u Berlinu za organiziranje međunarodnog zasjedanja – najvećeg i najznačajnijeg događaja unutar udruge.
+  headline: About <strong>EYP Croatia</strong>
+  content: "The European youth parliament Croatia (EPMH) is one of 40 national branches of the European Youth Parliament (EYP). Our organization was launched in Croatia in 1994. </br></br> During the years, we have organized many events: over 40 sessions (EYP days, regional and national sessions) that gathered over 5000 young participants. We’ve had the honor of hosting two international sessions, the largest and most significant event within the association with the support of the European Youth Parliament headquarters in Berlin. </br></br> We are a non-governmental and non-profit organization based on the principle of youth working for youth. We encourage young people to develop an open dialogue and strive to establish an environment where different cultures, opinions, and attitudes throughout Europe interact."
   media:
     image: "/assets/iadera.jpg "
-    alt_text: Customize Blocks
+    alt_text: Iadera 2016
 
 
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: Random <strong>naslov</strong></span>
-  content: The organisation hosts a variety of events, but the main ones are regional, national and international sessions. Regional sessions are the ones where the delegates are introduced to the organisation’s work through a simulation of a real parliamentary session. The best ones are selected to join the national sessions which happen once or twice per year in all of the national branches, where the best are chosen to represent their communities, cultures and states at the international sessions, the biggest events hosted by the organisation.
+  headline: Our <strong>mission</strong>
+  content: Our mission is to inspire youth and support them in developing their roles in society through debates and international dialogue. In cooperation with 39 national EYP branches, we open the door to hundreds of young people every year.
   media:
-    image: "/assets/iadera.jpg "
-    alt_text: Customize Blocks
+    image: "/assets/mission.jpg "
+    alt_text: Mission
 
 - template: headline
   block: headline
   headline: Upcoming <strong>events</strong>
-  content: Tu ide neki tekst...
+  content: EYP Croatia yearly organises 3 Outreach weekends, 4 Regional Selection Conferences,</br> 1 National Selection Conference and monthly meetings.
 
 
 - template: events
@@ -69,7 +68,9 @@ page_sections:
     image: "/assets/zadar.jpg"
     alt_text: zadar 2019 logo
     headline: 29th National Selection Conference of EYP Croatia - Zadar 2019.
-    content: The 29th National Selection Conference of European Youth Parliament Croatia will take place in Zadar from March 28th (27th for Officials) to March 31st. This will mark the third time the city of Zadar will host an event organised by EYP Croatia.
+    content: March 28th (27th for Officials) to March 31st.
+    color: 394692
+    link: zadar
   col_2:
     image: "/assets/kvadrat.png"
     alt_text: logo

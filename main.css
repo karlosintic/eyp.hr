@@ -1,6 +1,3 @@
-
-
-
 .link{
     text-decoration: none;
     color: white;
@@ -25,6 +22,15 @@
     width: 100%;
     background-color:white;
     border-bottom: 4px solid #FFD700;    
+}
+
+a{
+    text-decoration: none;
+    color: #191919;
+}
+
+a:hover {
+    color: #394692;
 }
 
 * {

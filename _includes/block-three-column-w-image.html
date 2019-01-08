@@ -5,16 +5,19 @@
         <img src="{{ section.col_1.image | relative_url }}" alt="{{ section.col_1.alt_text }}">      
         <h3>{{ section.col_1.headline }}</h3>
         <p>{{ section.col_1.content }}</p>
+        <a href="{{ section.col_1.link }}" class="button rectangle" style="background-color: {{ section.col_1.color }}">SEE MORE</a>
       </div>
       <div class="column">
         <img src="{{ section.col_2.image | relative_url }}" alt="{{ section.col_2.alt_text }}">  
         <h3>{{ section.col_2.headline }}</h3>
         <p>{{ section.col_2.content }}</p>
+        <a href="{{ nav_item.link }}" class="button rectangle" style="background-color: {{ section.color }}">{{ nav_item.link_text }}</a>
       </div>
       <div class="column">
         <img src="{{ section.col_3.image | relative_url }}" alt="{{ section.col_3.alt_text }}">  
         <h3>{{ section.col_3.headline }}</h3>
         <p>{{ section.col_3.content }}</p>
+        <a href="{{ nav_item.link }}" class="button rectangle" style="background-color: {{ section.color }}">{{ nav_item.link_text }}</a>
       </div>            
     </div>
   </div>
