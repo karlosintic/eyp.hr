@@ -69,18 +69,21 @@ page_sections:
     alt_text: zadar 2019 logo
     headline: 29th National Selection Conference of EYP Croatia - Zadar 2019.
     content: March 28th (27th for Officials) to March 31st.
-    color: 394692
-    link: zadar
+    button:
+      enabled: true
+      color: 394692
+      link: zadar
   col_2:
     image: "/assets/kvadrat.png"
     alt_text: logo
     headline: To be announced!
-    content: 🤫🤫🤫
+    content: 🤫🤫🤫  
   col_3:
     image: "/assets/kvadrat.png"
     alt_text: logo
     headline: To be announced!
     content: 🤫🤫🤫    
+
 
 - template: contact
   block: contact
