@@ -73,7 +73,7 @@ page_sections:
 
 - template: simple-footer
   block: footer-1
-  content: Copyright © EYP Croatia. Made with ❤️ in Zagreb, Croatia by PR working group. </br> Contribute on <a href="https://github.com/eypcro/eyp.hr">GitHub</a>.
+  content: Copyright © EYP Croatia. Made with ❤️ in Zagreb, Croatia by PR working group. </br> Contribute on <a href="https://github.com/eypcro/eyp.hr">GitHub</a>. <a href="https://goo.gl/forms/j2WeIYzpGzlcCoVi2">Report a problem</a>.
 ---
 
 Error... :(

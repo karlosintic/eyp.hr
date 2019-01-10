@@ -35,13 +35,14 @@ page_sections:
 - template: content-feature
   block: feature-index
   headline: What is <strong>EYP</strong>?
-  content: The European Youth Parliament (EYP) is an organization whose purpose is educating young people on current European problems in a parliamentary aspect. </br></br> As a network organization, EYP operates in 40 European countries and organizes over 500 events per year and if we aggregate the days we exceed 1200 days and 30,000 active members. </br></br> EYP was founded in 1987, and has since then taken huge steps forward connecting Europe and its different cultures. Today, EYP is one of the largest European platform for political debate, European education and the exchange of ideas among young Europeans. The Schwarzkopf Foundation is an international organization with headquarters in Berlin under which EYP is located.
+  content: The European Youth Parliament (EYP) is an organization whose purpose is educating young people on current European problems in a parliamentary aspect. </br></br> As a network organization, EYP operates in 40 European countries and organizes over 500 events per year and if we aggregate the days, we exceed 1200 days and 30,000 active members. </br></br> EYP was founded in 1987, and has since then taken huge steps towards connecting Europe and its different cultures. Today, EYP is one of the largest European platforms for political debate, education on topics concerning Europe and the exchange of ideas among young Europeans.
 
 - template: content-feature
   block: feature-1
   media_alignment: Right
   headline: About <strong>EYP Croatia</strong>
-  content: "The European youth parliament Croatia (EPMH) is one of 40 national branches of the European Youth Parliament (EYP). Our organization was launched in Croatia in 1994. </br></br> During the years, we have organized many events: over 40 sessions (EYP days, regional and national sessions) that gathered over 5000 young participants. We’ve had the honor of hosting two international sessions, the largest and most significant event within the association with the support of the European Youth Parliament headquarters in Berlin. </br></br> We are a non-governmental and non-profit organization based on the principle of youth working for youth. We encourage young people to develop an open dialogue and strive to establish an environment where different cultures, opinions, and attitudes throughout Europe interact."
+  content: "The European Youth Parliament Croatia (EPMH) is one of 40 national branches of the European Youth Parliament (EYP). Our organization was launched in Croatia in 1994. </br></br>Over the years, we have organized over 40 sessions (EYP days, regional and national sessions) that gathered over 5000 young participants. We’ve had the honour of hosting two international sessions, the largest and most significant event within the association with the support of the European Youth Parliament headquarters in Berlin.</br></br>We are a non-governmental and non-profit organization based on the principle of youth working for youth. We encourage young people to develop an open dialogue and strive to establish an environment where different cultures, opinions, and attitudes throughout Europe interact.
+"
   media:
     image: "/assets/iadera.jpg "
     alt_text: Iadera 2016
@@ -59,7 +60,8 @@ page_sections:
 - template: headline
   block: headline
   headline: Upcoming <strong>events</strong>
-  content: EYP Croatia yearly organises 3 Outreach weekends, 4 Regional Selection Conferences,</br> 1 National Selection Conference and monthly meetings.
+  content: EYP Croatia organises 3 Outreach Weekends, 4 Regional Selection Conferences,</br>1 National Selection Conference in a year and holds monthly meetings.
+
 
 
 - template: events
@@ -92,7 +94,7 @@ page_sections:
 
 - template: simple-footer
   block: footer-1
-  content: Copyright © EYP Croatia. Made with ❤️ in Zagreb, Croatia by PR working group. </br> Contribute on <a href="https://github.com/eypcro/eyp.hr">GitHub</a>.
+  content: Copyright © EYP Croatia. Made with ❤️ in Zagreb, Croatia by PR working group. </br> Contribute on <a href="https://github.com/eypcro/eyp.hr">GitHub</a>. <a href="https://goo.gl/forms/j2WeIYzpGzlcCoVi2">Report a problem</a>.
 ---
 
 Error... :(
