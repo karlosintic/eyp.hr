@@ -62,8 +62,6 @@ page_sections:
   headline: Upcoming <strong>events</strong>
   content: EYP Croatia organises 3 Outreach Weekends, 4 Regional Selection Conferences,</br>1 National Selection Conference in a year and holds monthly meetings.
 
-
-
 - template: events
   block: three-column-w-image
   col_1:
