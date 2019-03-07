@@ -15,6 +15,11 @@ page_sections:
     url: https://www.members.eyp.org/event/zadar-2019-29th-national-selection-conference-eyp-croatia
     button_text: Check it out on the Members platform
     bg_col: c07d39
+  button2:
+    enabled: True
+    url: https://goo.gl/forms/bQ8N6tmMIBTUN6dN2
+    button_text: Open call for the delegates
+    bg_col: c07d39    
 
   image:
     image: "assets/zadar.jpg"
@@ -56,12 +61,7 @@ page_sections:
     link_text:  Presidential vision
   - link: https://www.members.eyp.org/sites/default/files/event/files/vision.pdf
     link_text:  Editors’ vision
-  - link: "#"
-    link_text: Session Description
-  - link: "#"
-    link_text: Opis zasjedanja (HR)
-  - link: "#"
-    link_text: Poziv donatorima i sponzorima (HR)
+
 
 - template: partners
   block: three-column-w-image

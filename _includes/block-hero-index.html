@@ -15,6 +15,10 @@ style="background-image: url('{{ section.background_image | relative_url }}')"
         {% if section.button and section.button.enabled == true %}
         <a href="{{ section.button.url }}" class="button rectangle" style="background-color: {{ section.button.bg_col }}"> {{section.button.button_text }}</a>
         {% endif %}
+
+        {% if section.button2 and section.button2.enabled == true %}
+        <a href="{{ section.button2.url }}" class="button rectangle" style="background-color: {{ section.button.bg_col }}"> {{section.button2.button_text }}</a>
+        {% endif %}
       </div>
     </div>
 
